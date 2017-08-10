@@ -46,7 +46,7 @@ def decrypt(value):
     return val
 
 
-# ######### 基本使用 #########
+# ############ 基本使用 #########
 if __name__ == '__main__':
     v = 'wupeiqi'
     v1 = encrypt(v)
