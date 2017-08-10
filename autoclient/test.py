@@ -17,7 +17,7 @@ def encrypt(message):
     msg = cipher.encrypt(final_data) # 要加密的字符串，必须是16个字节或16个字节的倍数
     return msg
 
-# ############################## 解密 ##############################
+# ############################### 解密 ##############################
 def decrypt(msg):
     from Crypto.Cipher import AES
     key = b'dfdsdfsasdfdsdfs'
